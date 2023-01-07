@@ -1,0 +1,29 @@
+apps:
+  - script: './server.js'
+    exec_mode: 'fork'
+    name: 'worker-0'
+    env:
+      PORT: 3500
+      PORT_HTTPS: 3600
+      NODE_ENV: production
+  - script: './server.js'
+    exec_mode: 'fork'
+    name: 'worker-1'
+    env:
+      PORT: 3501
+      PORT_HTTPS: 3601
+      NODE_ENV: production
+  - script: './server.js'
+    exec_mode: 'fork'
+    name: 'worker-2'
+    env:
+      PORT: 3502
+      PORT_HTTPS: 3602
+      NODE_ENV: production
+  - script: './server.js'
+    exec_mode: 'fork'
+    name: 'worker-3'
+    env:
+      PORT: 3503
+      PORT_HTTPS: 3603
+      NODE_ENV: production

@@ -1,0 +1,57 @@
+{
+  "name": "react-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "ag-grid-community": "^27.1.0",
+    "ag-grid-react": "^27.1.0",
+    "axios": "^0.26.1",
+    "chart.js": "^3.7.1",
+    "js-cookie": "^3.0.1",
+    "js-file-download": "^0.4.12",
+    "jwt-decode": "^3.1.2",
+    "md5": "^2.3.0",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.1.0",
+    "react-charts": "^3.0.0-beta.36",
+    "react-data-table-component": "^7.4.7",
+    "react-datepicker": "^4.8.0",
+    "react-datetime-picker": "^4.0.1",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.4.0",
+    "sha256": "^0.2.0",
+    "styled-components": "^5.3.5"
+  },
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

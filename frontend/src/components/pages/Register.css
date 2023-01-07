@@ -1,0 +1,69 @@
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none !important;
+    height: 16px !important;
+}
+
+.height-info{
+    height: 16px !important;
+    filter: invert(0%);
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem !important;
+    height: 16px !important;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem !important;
+    height: 16px !important;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position:absolute;
+    width: 100%;
+}
+
+.sucmsg {
+    background-color: darkseagreen;
+    color: green;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position:absolute;
+    width: 100%;
+}
+
+.line {
+    display: inline-block;
+}
+
+.col label {
+    margin-left: 1rem;
+}

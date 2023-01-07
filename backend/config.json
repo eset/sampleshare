@@ -1,0 +1,31 @@
+{
+  "admin_email": "admin@localhost",
+  "admin_password": "",
+  "samples_path": "/var/lib/sampleshare/samples/",
+  "nginx": true,
+  "nginx_path": "/etc/nginx/",
+  "cron_jobs": true,
+  "hostname_url": "sampleshare.localhost",
+  "db":{
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": ""
+  },
+  "mail":{
+    "_comment": "mail credentials for the service",
+    "user": "",
+    "pass": "",
+    "host": "localhost",
+    "port": 25
+  },
+  "keys": {
+    "_comment": "JWT auth secret keys",
+    "auth": "",
+    "refresh": ""
+  },
+  "log_path": "/var/log/sampleshare/",
+  "salt1": "",
+  "win": false,
+  "gnu_path": "/var/lib/sampleshare/keyring/"
+}

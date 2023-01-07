@@ -1,0 +1,21 @@
+input{
+    margin-left: 1rem;
+}
+
+.rights-wrapper{
+    margin: 5px 0 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+}
+
+.info-wrapper{
+    margin: 5px 0 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+}
+
+.info-span{
+    justify-content: end;
+}

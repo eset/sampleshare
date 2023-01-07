@@ -1,0 +1,24 @@
+.ag-cell {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+}
+
+.ag-header-cell-label{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+}
+
+.grid-icon {
+    margin-right: 0.5rem;
+    height: 16px;
+}
+
+.wrapper{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    display: flex;
+    flex: 1;
+    min-height: 760px;
+}

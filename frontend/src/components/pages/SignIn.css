@@ -1,0 +1,47 @@
+.login-form-wrapper {
+    margin: 0 1rem;
+    border-radius: 10px;
+    width: 80vh;
+    min-width: 40vh;
+    min-height: 60vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #d9d9d9;
+}
+
+.login-form-wrapper h1 {
+    padding-top: 1rem !important;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 171vh;
+}
+
+.header h3 {
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.input-wrapper input {
+    margin-bottom: 24px;
+    padding: 8px 5px;
+    width: 20vh;
+}
+
+.login-footer {
+    font-size: 1rem;
+    text-align: center;
+    flex: none;
+    margin-top: auto;
+    margin-bottom: 5px;
+    color: #999999;
+}
