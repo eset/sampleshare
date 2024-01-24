@@ -1,15 +1,25 @@
 # ESET Sampleshare
 
-Copyright © ESET 2023
+Copyright © ESET 2024
 
-This is a Sampleshare application developed by ESET Research CZ built on NSSF (Norman Sample Sharing Framework). It takes use of Node,js and React and is fully built in JavaScript. The app is able of organizing malicious as well as clean samples and URLs. It also offers various statistics about every user, sample group and download traffic.
+[ESET Sampleshare](https://sampleshare.eset.com/) is a sample sharing web
+application developed by ESET Research and compatible with the Norman Sample
+Sharing framework. It uses Node.js and React, and is fully built in JavaScript.
+The app is capable of downloading malicious and clean samples, and URLs. It
+also offers various statistics about users, samples, and download traffic.
 
-External users are open to create their accounts and download a subscription script after they get their clearance from an admin and are verified. After this, users are able to download their available sample files.
-Admins can view and manage all samples, users and their permissions.
+External users are free to create an account. After account verification and
+approval by an admin, they may use the provided script to download available
+samples. Admins can view and manage all samples, users, and permissions.
 
-The installation manual and more info is in the supplied documentation.
-If you would like to contribute improved versions please send us a pull request.
+The installation manual, along with additional info, is available in the
+[documentation](doc). If you would like to contribute to this project, please
+send us a pull request.
 
-These are licensed under the permissive BSD two-clause license. You are allowed to modify these and keep the changes to yourself, but we would be glad if you shared your improvements.
+This software is made available under the BSD-2-Clause license. You are allowed
+to modify it and keep the changes to yourself, but we would be glad if you
+shared your improvements.
 
-If you encounter any vulnerabilities with the Sampleshare implementation, please report them at https://www.eset.com/int/security-vulnerability-reporting/.
+If you discover a vulnerability, please report it according to our vulnerability
+disclosure policy at
+https://www.eset.com/int/security-vulnerability-reporting/.
